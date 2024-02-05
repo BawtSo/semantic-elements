@@ -4,47 +4,48 @@
     <title>What are Sematic Elements? </title>
 <body>
         <header>
-            <section>
+            <main>
                 <h1>What are <mark>Semantic Elements?</mark></h1>
                     <p>Semantic elements are tags of code that help developers format a webpage.</p>
                 <h2>What are the different types of semantic elements?</h2>
-                <input list = "elements" onfocus = "this.value=``" onchange ="this.blur();">
-                <datalist id = "elements">
-                    <option value = "Header"></option>      
-                    <option value = "Section"> </option>    
-                    <option value = "Article"></option>
-                    <option value = "Nav"></option>
-                    <option value = "Footer"></option>
-                    <option value = "mark"></option>
-                    <option value = "Figure"></option>
-                    <option value = "alt"></option>
-                    <option value = "time"></option>
-                    <option value = "Datalist"></option>
-                    <option value = "Progress"></option>
-                </datalist>
-                <progress>
-
-                </progress>
-            </section>
+                    <article>
+                        <h2>Header</h2>
+                        <p>Header is the..</p>
+                    </article>
+                    <article>
+                        <h3>Footer</h3>
+                        <p>Footer is the..</p>
+                    </article>
+ 
+            </main>
             <section>
-                <h2> What is a webpage?</h2>
+                <h4> What is a webpage?</h4>
                     <p>A webpage is a collection of information under a specific domain on the World Wide Web.</p>
             </section>
             <aside>
-                    <h3>What are the different types of programming languages?</h3>
+                    <h8>What are the different types of programming languages?</h8>
                         <nav>   
                           <ol>
                             <li><a href="#">C#</a></li>
                              <li><a href="#">Python</a></li>
-                             <li><a href="#">C++</a>+</li>
+                             <li><a href="#">C++</a></li>
                              <li><a href="#">Java</a></li>
                              <li><a href="#">SQL</a></li>
                          </ol>
+                         <p>Which language would prefer to learn first?</p>
+                         <input list = "lang-option" onfocus = "this.value=``" onchange ="this.blur();">    
+                         <datalist id = "lang-option">
+                             <option value = "C#"></option>   
+                             <option value = "Python"> </option>    
+                             <option value = "C++"></option>
+                             <option value = "Java"></option>
+                             <option value = "SQL"></option>
+                         </datalist>
                         </nav>
               </aside>
               <details>
                 <summary>
-                    There are many different elements that help define a webpage and using semantic elements will be the most concise way to make your code clear.
+                    Semantic elements are tags of code that specifically describe what the subject of information will be when creating a html file. These elements are used to create and display information in specific format on a webpage. Using semantic elements in code allows the user and developer to easily understand what type of information will be displayed.
                 </summary>
             </details>
         </header>
